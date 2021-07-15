@@ -1,0 +1,17 @@
+void main(){
+ 
+  if(pos(48)== true){
+    
+    print("Negativo");
+  }else{
+      print("Positivo");
+    }
+}
+  
+bool pos(int num){
+  if(num < 0){
+    return true;
+  }else{
+      return false;
+    }
+}

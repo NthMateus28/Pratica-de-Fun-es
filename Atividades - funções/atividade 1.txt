@@ -1,0 +1,12 @@
+void main(){
+  
+  menor(42,33);
+} 
+void menor(int valor1, int valor2){
+  
+  if(valor1<valor2){
+    print("O menor valor é $valor1");
+  }else{
+    print("O menor valor é $valor2");
+  }  
+}
